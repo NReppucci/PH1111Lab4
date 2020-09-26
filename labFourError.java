@@ -44,7 +44,7 @@ public class labFourError
         slowestUncertainty = (slowestUncertaintyFinal + slowestUncertaintyInit);
         
         // Result is printed
-        System.out.println("The momentum for the slowest collision is: " + slowestMomentum + " kg*m/s" + "\n The uncertainty is: ±" + slowestUncertainty + " kg*m/s \n" );
+        System.out.println("The impulse for the slowest collision is: " + slowestMomentum + " kg*m/s" + "\n The uncertainty is: ±" + slowestUncertainty + " kg*m/s \n" );
 
         /**Calculates momentum and uncertainty for slower run with a mix of the multiplication/division and addition/subtraction rules
          * for working with values with uncertainties.
@@ -57,7 +57,7 @@ public class labFourError
         slowerUncertainty = (slowerUncertaintyFinal + slowerUncertaintyInit);
 
         // Result is printed
-        System.out.println("The momentum for the slower collision is: " + slowerMomentum + " kg*m/s" +  "\n The uncertainty is: ±" + slowerUncertainty + " kg*m/s \n" );
+        System.out.println("The impulse for the slower collision is: " + slowerMomentum + " kg*m/s" +  "\n The uncertainty is: ±" + slowerUncertainty + " kg*m/s \n" );
 
         /**Calculates momentum and uncertainty for slow run with a mix of the multiplication/division and addition/subtraction rules
          * for working with values with uncertainties.
@@ -70,7 +70,7 @@ public class labFourError
         slowUncertainty = (slowUncertaintyFinal + slowUncertaintyInit);
 
         // Result is printed
-        System.out.println("The momentum for the slow collision is: " + slowMomentum + " kg*m/s" + "\n The uncertainty is: ±" + slowUncertainty + " kg*m/s");
+        System.out.println("The impulse for the slow collision is: " + slowMomentum + " kg*m/s" + "\n The uncertainty is: ±" + slowUncertainty + " kg*m/s");
 
     }
 }
